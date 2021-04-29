@@ -28,9 +28,9 @@ class X5WebView(private val context: Context, private val id: Int, private val p
               settings.useWideViewPort = true
               settings.domStorageEnabled = true
               settings.javaScriptCanOpenWindowsAutomatically = true
-              settings.appCacheEnabled = true
+              //settings.appCacheEnabled = true
               settings.allowFileAccess = true
-              settings.appCacheMaxSize = 1024*1024*1024*8
+              //settings.appCacheMaxSize = 1024*1024*1024*8
 //                settings.layoutAlgorithm=LayoutAlgorithm.SINGLE_COLUMN
 
             if (params["javascriptChannels"] != null) {
